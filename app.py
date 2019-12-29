@@ -8,7 +8,7 @@ ENV = 'prod'
    
 if ENV == 'dev':
     app.debug = True
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:S9emub7v@localhost/dealership'
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:*******@localhost/dealership'
 else:
     app.debug = False
     app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://xkbosnnjreognb:9a4eac938ed3590f1931315bd185efa3f8d98ce6c6ace26160c298402ae19be8@ec2-54-235-104-136.compute-1.amazonaws.com:5432/dckefpmha2quh8'
