@@ -1,0 +1,4 @@
+.vscode
+__pycache__
+__pycache__/app.cpython-37.pyc
+__pycache__/send_mail.cpython-37.pyc
